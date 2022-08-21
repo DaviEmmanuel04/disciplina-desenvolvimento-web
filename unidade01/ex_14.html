@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Virtual</title>
+</head>
+<body style="display: flex; justify-content: center;">
+    <div style="border: double 4px black; width: 700px;">
+        <div style="text-align: center; padding: 10px;">
+            <h1>Escola Virtual</h1>
+            <h2>Formulário de Pré-Matrícula</h2>
+            <hr size="2px" color="black">
+        </div>
+
+        <form action="">
+            <!-- <dl>
+                <dt><strong>Dados Pessoais</strong></dt>
+                <dd>
+                    <label for="nome">Nome do aluno:</label>
+                    <input type="text" name="nome">
+                </dd>
+                <dd>
+                    <label for="data">Nascimento(dd/mm/aaaa)</label>
+
+                    <input type="text" name="data">/ <input type="text">
+                </dd>
+            </dl> -->
+            <table>
+                    <tr>
+                        <th style="text-align: left;">Dados Pessoais</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            Nome do aluno:
+                        </td>
+                        <td>
+                            <input type="text" style="width: 180px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Nascimento(dd/mm/aaaa):</td>
+                        <td><input type="text" style="width: 30px;">/ <input type="text" style="width: 30px;">/ <input type="text" style="width: 60px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: right;">
+                            Nome da Mãe:
+                        </td>
+                        <td>
+                            <input type="text" style="width: 180px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: right;">
+                            Nome do Pai:
+                        </td>
+                        <td>
+                            <input type="text" style="width: 180px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: right;">
+                            Telefone:
+                        </td>
+                        <td>
+                            DDD
+                            (<input type="text" style="width: 40px;">) Tel: <input type="text" style="width: 90px;"> Ramal: <input type="text" style="width: 40px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: right;">
+                            Email:
+                        </td>
+                        <td>
+                            <input type="text" style="width: 180px;">
+                        </td>
+                    </tr>
+                
+                <tr>
+                    <th style="text-align: left; white-space: nowrap">Informações de Matrícula</th>
+                </tr>
+                <tr>
+                    <td>Série</td>
+                    <td style="width: 30px;">Turno</td>
+                    <td style="text-align: left; white-space: nowrap">Atividades Extracurriculares</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: initial;"><select name="serie" id="serie">
+                        <option value="pre">pré-escolar</option>
+                        <option value="fundamental">Fundamental</option>
+                        <option value="medio">Ensino Médio</option>
+                    </select></td>
+                    <td style="vertical-align: initial;">
+                        <input type="radio" name="turno" id="manha">
+                        <label for="manha">Manhã</label>
+                        <br>
+                        <input type="radio" name="turno" id="tarde">
+                        <label for="tarde">Tarde</label>
+                    </td>
+                    <td style="vertical-align: initial;">
+                        <input type="checkbox" id="info">
+                        <label for="info">Informática</label><br>
+                        <input type="checkbox" name="atiividades" id="musica">
+                        <label for="musica">Música</label><br>
+                        <input type="checkbox" name="atividades" id="balet">
+                        <label for="balet">Balet</label><br>
+                        <input type="checkbox" name="atividades" id="pintura">
+                        <label for="pintura">Pintura</label><br>
+                        <input type="checkbox" name="atividades" id="judo">
+                        <label for="judo">Judô</label><br>
+                        <input type="checkbox" name="atividades" id="futebol">
+                        <label for="futebol">Futebol</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align: center;">
+                        <hr>
+                        <button>Enviar Formulário</button>
+                        <button>Limpar Campos</button>
+                    </td>
+                </tr>
+            </table>
+            
+        </form>
+    </div>
+</body>
+</html>
