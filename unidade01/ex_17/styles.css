@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+div {
+    padding: 10px;
+}
+
+#titulo {
+    text-decoration: underline;
+}
+
+.paragrafo {
+    width: 400px;
+}

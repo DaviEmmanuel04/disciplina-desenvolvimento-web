@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://bangsaid.com/wp-content/uploads/2015/06/background-image-repeat-17-cool-hd-background-and-wallpaper.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    background-color: beige;
+}
+h2 {
+    background-color: bisque;
+}
+
+h3 {
+    background-color: blanchedalmond;
+}
+
+h4 {
+    background-color: burlywood;
+}
+
+h5 {
+    background-color: cornsilk;
+}
+
+h6 {
+    background-color: floralwhite;
+}
