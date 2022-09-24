@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+}
+
+.card {
+    max-width: 178px;
+    float: left;
+    margin-right: 15px;
+}
+
+.image {
+    width: 178px;
+    height: 134px;
+    background-color: brown;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tipo {
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.titulo {
+    margin: 0;
+    color: #5A98AB;
+}
+
+.catchup {
+    background-image: url('../../images/catchup.jpg');
+}
+
+.pudim {
+    background-image: url('../../images/pudim.jpg');
+}
+
+.lasanha {
+    background-image: url('../../images/lasanha.jpg');
+}

@@ -1,0 +1,12 @@
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333333;
+    float: left;
+}
+
+.link:hover {
+    color: black;
+    background-color: #DDDDDD;
+}

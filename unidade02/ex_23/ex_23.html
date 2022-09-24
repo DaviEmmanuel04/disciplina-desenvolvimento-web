@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex_23</title>
+</head>
+<body>
+    <p id="operacao"></p>
+
+    <script>
+        let operacao = window.prompt("Digite a operação a ser realizada")
+        let valor1 = Number(window.prompt("Digite o primeiro valor"))
+        let valor2 = Number(window.prompt("Digite o segundo valor"))
+        let p = document.getElementById('operacao')
+
+        const soma = (n1, n2) => {
+            p.innerHTML = `${n1} <strong>+</strong> ${n2} = <strong>${n1 + n2}</strong>`
+        }
+
+        const sub = (n1, n2) => {
+            p.innerHTML = `${n1} <strong>-</strong> ${n2} = <strong>${n1 - n2}</strong>`
+        }
+
+        const mult = (n1, n2) => {
+            p.innerHTML = `${n1} <strong>*</strong> ${n2} = <strong>${n1 * n2}</strong>`
+        }
+
+        const div = (n1, n2) => {
+            if(n2 === 0) {
+                p.innerHTML = 'Não é possível dividir por zero'
+            }else {
+                p.innerHTML = `${n1} <strong>${'/'}</strong> ${n2} = <strong>${n1 / n2}</strong>`
+            }
+        }
+
+        switch(operacao){
+            case '+':
+                soma(valor1, valor2)
+                break
+            case '-':
+                sub(valor1, valor2)
+                break
+            case '*':
+                mult(valor1, valor2)
+                break
+            case '/':
+                div(valor1, valor2)
+                break
+            default:
+                p.innerHTML = 'Operação inválida'
+        }
+    </script>
+</body>
+</html>
